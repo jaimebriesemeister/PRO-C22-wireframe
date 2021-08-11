@@ -8,7 +8,7 @@ var engine, world, backgroundImg,ground;
 
 function preload() {
  
-
+}
 function setup() {
 
   canvas = createCanvas(1200, 600);
