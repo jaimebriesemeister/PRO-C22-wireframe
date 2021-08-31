@@ -15,12 +15,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   
-   var options = {
-    isStatic: true
-  }
-
-  ground = Bodies.rectangle(0, height - 1, width * 2, 1, options);
-  World.add(world, ground);
+ 
 }
 
 function draw() {
@@ -28,5 +23,5 @@ function draw() {
  
   Engine.update(engine);
   
-   rect(ground.position.x, ground.position.y, width * 2, 1);
+   
 }
